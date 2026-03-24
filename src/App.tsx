@@ -75,10 +75,13 @@ function App() {
                   Family Details
                 </h2>
                 <div className="bg-white rounded-2xl p-8 shadow-lg border border-stone-100 space-y-4">
+                  <DetailRow label="Grandparents" value="Late Shobhagmal Redashni & Late Rasal Devi" />
                   <DetailRow label="Father" value="Mahendra Kumar Jain" />
                   <DetailRow label="Father's Business" value="Panna Jewellers & SW Carpet (Chennai)" />
                   <DetailRow label="Mother" value="Kamana Jain" />
                   <DetailRow label="Siblings" value="Twinkle Jain, Tanu Jain, Sambhav Jain" />
+                  <DetailRow label="Sankhe" value="Redashni, Bohra (Ratanpura), Khinwasara, Kothari (Ranjitot)" />
+                  <DetailRow label="Maternal" value="Shri Sampatraj Bohra" />
                   <DetailRow label="Religion" value="Jain" />
                   <DetailRow label="Family Status" value="Well-respected Jain family" />
                 </div>
@@ -151,8 +154,8 @@ function App() {
               </div>
               <div className="mt-6 bg-white rounded-2xl p-8 shadow-lg border border-stone-100">
                 <div className="space-y-4">
-                  <DetailRow label="Current Address" value="Beawar, Rajasthan, India" />
-                  <DetailRow label="Hometown" value="Thanwala, Nagaur, Rajasthan" />
+                  <DetailRow label="Current Address" value="03, Shri Shri Mal Gali, Teliyan Chopad, Beawar (305901)" />
+                  <DetailRow label="Hometown" value="Thanwala, Nagaur" />
                   <DetailRow label="Family Name" value="Jain" />
                 </div>
               </div>
